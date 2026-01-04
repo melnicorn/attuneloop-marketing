@@ -1,0 +1,30 @@
+<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .wordmark { 
+      font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+      font-weight: 700; 
+      font-size: 52px; 
+      letter-spacing: 0.18em; 
+      fill: #020617; 
+    }
+    .line-element { fill: #475569; }
+    .calibration-mark { fill: #06b6d4; }
+
+    @media (prefers-color-scheme: dark) {
+      .wordmark { fill: #ffffff; }
+      .line-element { fill: #cffafe; }
+      .calibration-mark { fill: #67e8f9; }
+    }
+  </style>
+
+  <text x="200" y="80" text-anchor="middle" class="wordmark">ATTUNE</text>
+
+  <rect x="84" y="105" width="95" height="2" class="line-element"/>
+  <rect x="221" y="105" width="95" height="2" class="line-element"/>
+
+  <rect x="189" y="102" width="2" height="8" class="line-element"/>
+  <rect x="194" y="98" width="2" height="16" class="line-element"/>
+  <rect x="199" y="94" width="2" height="24" class="calibration-mark"/>
+  <rect x="204" y="98" width="2" height="16" class="line-element"/>
+  <rect x="209" y="102" width="2" height="8" class="line-element"/>
+</svg>
