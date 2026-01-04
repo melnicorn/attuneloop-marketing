@@ -4,11 +4,12 @@
 }
 
 :root {
-  /* System Font Stack */
-  --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* System Font Stack with Lato as primary */
+  --font-primary: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   
   /* Palette - Light Theme (Therapeutic / Calming) */
   --bg-color: #f4f7f6;        /* Soft sage/grey white */
+  --bg-image: url('/assets/bg.svg');
   --text-main: #2c3e50;       /* Dark slate blue */
   --text-light: #546e7a;      /* Muted blue-grey */
   --accent-color: #00838f;    /* Teal */
@@ -27,6 +28,7 @@
   :root {
     /* Palette - Dark Theme */
     --bg-color: #10171e;        /* Deep blue-black */
+    --bg-image: url('/assets/bg-dark.svg');
     --text-main: #eceff1;       /* Off-white */
     --text-light: #b0bec5;      /* Light blue-grey */
     --accent-color: #4dd0e1;    /* Bright Cyan/Teal */
@@ -48,14 +50,14 @@ body {
   line-height: 1.6;
   color: var(--text-main);
   background-color: var(--bg-color);
-  background-image: url('/assets/bg.svg');
+  background-image: var(--bg-image);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -82,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   margin-top: 2em;
   margin-bottom: 0.6em;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--text-main);
 }
 
@@ -90,7 +92,7 @@ h1 {
   font-size: 3rem;
   letter-spacing: -0.02em;
   margin-top: 1em;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 h2 {
@@ -100,7 +102,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 p {
