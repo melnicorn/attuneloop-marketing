@@ -92,16 +92,16 @@ Content:
   - Not therapy or medical advice
   - Not spiritual or religious
   - Not motivational content or a quick fix
-- Primary CTA: link to `/attune-loop/`
+- Primary CTA: link to `/loop/`
 - Secondary CTA: link to `/disclaimer/`
 - Small note near the footer:  
   “Early project. More details coming.”
 
 ---
 
-#### `/attune-loop/` — The Attune Loop
+#### `/loop/` — The Attune Loop
 File:
-public/attune-loop/index.html
+public/loop/index.html
 
 Content:
 - Title: **The Attune Loop**
@@ -150,7 +150,7 @@ Tone should be serious but not alarmist.
 - public/robots.txt  
   Allow indexing
 - public/sitemap.xml  
-  Include `/`, `/attune-loop/`, `/disclaimer/`
+  Include `/`, `/loop/`, `/disclaimer/`
 
 ---
 
