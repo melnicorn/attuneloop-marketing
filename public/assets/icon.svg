@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .favicon-bg { fill: #1a1a1a; /* darker charcoal */ }
+    .favicon-line { fill: #94a3b8; /* slate-400 */ }
+    .favicon-center { fill: #e11d48; /* rose-600 */ }
+    
+    @media (prefers-color-scheme: dark) {
+      .favicon-bg { fill: #1a1a1a; /* darker charcoal */ }
+      .favicon-line { fill: #475569; /* slate-600 */ }
+      .favicon-center { fill: #fb7185; /* rose-400 */ }
+    }
+  </style>
+
+  <!-- Background: slightly smaller than viewbox to avoid edge clipping if converted to ico -->
+  <rect x="0" y="0" width="32" height="32" rx="4" ry="4" class="favicon-bg"/>
+
+  <!-- Vertical lines centered in 32x32 viewbox -->
+  
+  <!-- Outer Left -->
+  <rect x="5" y="12" width="2" height="8" class="favicon-line"/>
+  
+  <!-- Inner Left -->
+  <rect x="10" y="8" width="2" height="16" class="favicon-line"/>
+  
+  <!-- Center -->
+  <rect x="15" y="4" width="2" height="24" class="favicon-center"/>
+  
+  <!-- Inner Right -->
+  <rect x="20" y="8" width="2" height="16" class="favicon-line"/>
+  
+  <!-- Outer Right -->
+  <rect x="25" y="12" width="2" height="8" class="favicon-line"/>
+</svg>

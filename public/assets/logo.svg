@@ -5,15 +5,15 @@
       font-weight: 700; 
       font-size: 52px; 
       letter-spacing: 0.18em; 
-      fill: #020617; 
+      fill: #0f172a; /* slate-900 */
     }
-    .line-element { fill: #475569; }
-    .calibration-mark { fill: #06b6d4; }
+    .line-element { fill: #94a3b8; /* slate-400 */ }
+    .calibration-mark { fill: #e11d48; /* rose-600 */ }
 
     @media (prefers-color-scheme: dark) {
-      .wordmark { fill: #ffffff; }
-      .line-element { fill: #cffafe; }
-      .calibration-mark { fill: #67e8f9; }
+      .wordmark { fill: #ecfeff; /* cyan-50 */ }
+      .line-element { fill: #475569; /* slate-600 */ }
+      .calibration-mark { fill: #fb7185; /* rose-400 */ }
     }
   </style>
 
