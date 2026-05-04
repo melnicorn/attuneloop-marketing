@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npx -y serve@latest dist",
     "clean": "rm -rf node_modules .next dist",
     "serve": "next build && firebase serve",
     "deploy": "next build && firebase deploy",
