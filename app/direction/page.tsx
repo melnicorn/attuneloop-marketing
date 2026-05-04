@@ -22,15 +22,15 @@ export default function Direction() {
           , not a content platform.
         </p>
         <p className="mb-6 max-w-prose text-slate-900 dark:text-cyan-50">
-          The focus is on building something that:
+          The focus is on developing tools that:
         </p>
         <ul className="mb-6 list-disc pl-5">
-          <li className="mb-2 pl-2">remains usable under stress</li>
+          <li className="mb-2 pl-2">Remain usable under stress</li>
           <li className="mb-2 pl-2">
-            improves with repetition rather than novelty
+            Improve with repetition rather than novelty
           </li>
           <li className="mb-2 pl-2">
-            scales across emotional and attentional domains
+            Scale across emotional and attentional domains
           </li>
         </ul>
         <p className="mb-6 max-w-prose text-slate-900 dark:text-cyan-50">
@@ -70,9 +70,9 @@ export default function Direction() {
           Some capabilities will emerge only after:
         </p>
         <ul className="mb-6 list-disc pl-5">
-          <li className="mb-2 pl-2">repeated exposure</li>
-          <li className="mb-2 pl-2">accumulated state experience</li>
-          <li className="mb-2 pl-2">refinement of internal models</li>
+          <li className="mb-2 pl-2">Repeated exposure</li>
+          <li className="mb-2 pl-2">Accumulated state experience</li>
+          <li className="mb-2 pl-2">Refinement of internal models</li>
         </ul>
         <p className="mb-6 max-w-prose text-slate-900 dark:text-cyan-50">
           This is expected and intentional.
@@ -85,9 +85,9 @@ export default function Direction() {
           Attune is built for people who value:
         </p>
         <ul className="mb-6 list-disc pl-5">
-          <li className="mb-2 pl-2">understanding over persuasion</li>
-          <li className="mb-2 pl-2">control over comfort</li>
-          <li className="mb-2 pl-2">durability over immediacy</li>
+          <li className="mb-2 pl-2">Understanding over persuasion</li>
+          <li className="mb-2 pl-2">Control over comfort</li>
+          <li className="mb-2 pl-2">Durability over immediacy</li>
         </ul>
         <p className="mb-6 max-w-prose text-slate-900 dark:text-cyan-50">
           It does not attempt to appeal to everyone.

@@ -27,7 +27,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/favicon.ico" />
+
       </head>
       <body className="bg-slate-50 bg-[url('/assets/bg.svg')] bg-cover bg-fixed bg-center bg-no-repeat font-lato font-light text-slate-900 transition-colors duration-300 antialiased dark:bg-cyan-950 dark:bg-[url('/assets/bg-dark.svg')] dark:text-cyan-50">
         <div className="mx-auto max-w-[840px] px-6">
