@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "clean": "rm -rf node_modules .next dist",
     "serve": "next build && firebase serve",
     "deploy": "next build && firebase deploy",
     "lint": "eslint"

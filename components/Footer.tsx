@@ -1,12 +1,16 @@
 import Link from 'next/link'
 
+const startYear = 2026
+const currentYear = new Date().getFullYear()
+const displayYear = startYear === currentYear ? startYear : `${startYear}-${currentYear}`
+
 export function Footer() {
   return (
     <footer className="mt-16 border-t border-slate-200 py-8 text-[0.85rem] text-slate-600 dark:border-cyan-800 dark:text-cyan-200">
       <div className="flex flex-col justify-between items-center md:flex-row">
         <div>
           <p className="mt-0">
-            &copy; 2026 Slow Clap Software. All rights reserved.
+            &copy; {displayYear} Reaching Random LLC. All rights reserved.
           </p>
         </div>
         <div>
